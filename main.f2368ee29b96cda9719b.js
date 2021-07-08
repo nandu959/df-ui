@@ -58640,7 +58640,7 @@ SearchComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](1, _c0));
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLink"]], styles: [".df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%] {\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #007bff;\n  color: #FFF;\n  display: grid;\n  width: 100%;\n  position: relative;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 1rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   .df-s-header-div[_ngcontent-%COMP%] {\n  display: flex;\n  border: 1px solid #ced4da;\n  background-color: #77b7fc;\n  margin: 0 1rem 1rem 1rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   .df-s-header-div[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 1.5rem;\n  margin: 0.25rem;\n  cursor: pointer;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-content[_ngcontent-%COMP%] {\n  padding: 1rem !important;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%] {\n  display: flex;\n  overflow-x: auto;\n  width: 100%;\n  margin: 1rem 0rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%]   .df-rec-item[_ngcontent-%COMP%] {\n  padding: 1rem;\n  margin: 0.25rem;\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #f9f9f9;\n  border: 1px solid #e3e3e3;\n  width: 2rem;\n  height: 2rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%]::-webkit-scrollbar {\n  display: none;\n}"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkActive"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLink"]], styles: [".df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%] {\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #007bff;\n  color: #FFF;\n  display: grid;\n  width: 100%;\n  position: relative;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   h2[_ngcontent-%COMP%] {\n  margin: 0;\n  padding: 0.75rem 1rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   .df-s-header-div[_ngcontent-%COMP%] {\n  display: flex;\n  border: 1px solid #ced4da;\n  background-color: #77b7fc;\n  margin: 0 1rem 1rem 1rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-header[_ngcontent-%COMP%]   .df-s-header-div[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 1.5rem;\n  margin: 0.25rem;\n  cursor: pointer;\n}\n.df-search[_ngcontent-%COMP%]   .df-s-content[_ngcontent-%COMP%] {\n  padding: 1rem !important;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%] {\n  display: flex;\n  overflow-x: auto;\n  width: 100%;\n  margin: 1rem 0rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%]   .df-rec-item[_ngcontent-%COMP%] {\n  padding: 1rem;\n  margin: 0.25rem;\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #f9f9f9;\n  border: 1px solid #e3e3e3;\n  width: 2rem;\n  height: 2rem;\n}\n.df-search[_ngcontent-%COMP%]   .df-rec-nav[_ngcontent-%COMP%]::-webkit-scrollbar {\n  display: none;\n}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SearchComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -58682,24 +58682,26 @@ class SecondaryNavbarComponent {
     }
 }
 SecondaryNavbarComponent.ɵfac = function SecondaryNavbarComponent_Factory(t) { return new (t || SecondaryNavbarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_1__["Location"])); };
-SecondaryNavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SecondaryNavbarComponent, selectors: [["app-secondary-navbar"]], decls: 8, vars: 2, consts: [[1, "secnav"], [1, "secnav__link", "secnav-back", 3, "click"], [1, "material-icons", "nav__icon"], [1, "secnav-menu"], ["routerLinkActive", "active", 1, "secnav__link", 3, "routerLink"]], template: function SecondaryNavbarComponent_Template(rf, ctx) { if (rf & 1) {
+SecondaryNavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SecondaryNavbarComponent, selectors: [["app-secondary-navbar"]], decls: 9, vars: 2, consts: [[1, "secnav"], [1, "secnav-back"], [1, "secnav__link", 3, "click"], [1, "material-icons", "nav__icon"], [1, "secnav-menu"], ["routerLinkActive", "active", 1, "secnav__link", 3, "routerLink"]], template: function SecondaryNavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "span", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SecondaryNavbarComponent_Template_span_click_1_listener() { return ctx.back(); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "i", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "arrow_back");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function SecondaryNavbarComponent_Template_span_click_2_listener() { return ctx.back(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "i", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "arrow_back");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "i", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "search");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "i", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "search");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](1, _c0));
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLink"]], styles: [".secnav[_ngcontent-%COMP%] {\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #007bff;\n  height: 3rem;\n  position: relative;\n  color: #FFF;\n}\n\n.secnav-logo[_ngcontent-%COMP%] {\n  display: block;\n  position: absolute;\n  left: 1rem;\n  top: 0.75rem;\n  cursor: pointer;\n  margin: 0;\n  text-transform: capitalize;\n}\n\n.secnav-menu[_ngcontent-%COMP%] {\n  display: block;\n  position: absolute;\n  right: 1rem;\n  top: 0.75rem;\n  cursor: pointer;\n}\n\n.secnav__link[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  font-size: 1.5rem;\n}\n\n.secnav-back[_ngcontent-%COMP%] {\n  display: block;\n  position: absolute;\n  top: 0.75rem;\n  cursor: pointer;\n  left: 1rem;\n}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](SecondaryNavbarComponent, [{
