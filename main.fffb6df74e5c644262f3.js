@@ -58388,50 +58388,81 @@ DealDetailComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DealsComponent", function() { return DealsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
 
+
+function DealsComponent_ng_container_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerStart"](0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Acer Chromebook 311: Intel N4020, 11.6\", 4GB RAM, 32GB Storage Acer Chromebook 311: Intel N4020, 11.6\", 4GB RAM, 32GB Storage");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "span", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "$229");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "span", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "span", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "$129");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "span", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "+ Free Shipping");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "span", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " at ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Walmart");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "i", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "thumb_up");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "span", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "15");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "i", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "comment");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "span", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "15");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementContainerEnd"]();
+} }
 class DealsComponent {
-    constructor() { }
+    constructor() {
+        this.items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    }
     ngOnInit() {
     }
 }
 DealsComponent.ɵfac = function DealsComponent_Factory(t) { return new (t || DealsComponent)(); };
-DealsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DealsComponent, selectors: [["app-deals"]], decls: 22, vars: 0, consts: [[1, "df-deals"], [1, "df-container"], [1, "df-deal"]], template: function DealsComponent_Template(rf, ctx) { if (rf & 1) {
+DealsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DealsComponent, selectors: [["app-deals"]], decls: 3, vars: 1, consts: [[1, "df-deals"], [1, "df-container"], [4, "ngFor", "ngForOf"], [1, "df-deal"], [1, "df-deal-img"], ["title", "deal image", "src", "../assets/img/10314832.thumb", 1, "df-deal-img"], [1, "df-deal-info"], [1, "deal-title"], [1, "deal-ad-info"], [1, "deal-or-price"], [1, "deal-pricing"], [1, "deal-price"], [1, "deal-shipping"], [1, "deal-store"], [1, "deal-footer"], [1, "deal-liking"], [1, "material-icons", "df-o-icon"], [1, "df-o-label"], [1, "deal-comments"]], template: function DealsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "1");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "5");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "6");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "7");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "8");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "9");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "10");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, DealsComponent_ng_container_2_Template, 31, 0, "ng-container", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: [".df-deals[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 1rem;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%] {\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #f9f9f9;\n  border: 1px solid #e3e3e3;\n  border-radius: 2px;\n  padding: 20px;\n  color: #000;\n  margin: 0.5rem 0;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]:first-child, .df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]:last-child {\n  margin: 0;\n}"] });
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.items);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"]], styles: [".df-deals[_ngcontent-%COMP%] {\n  position: relative;\n  padding: 1rem;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%] {\n  box-shadow: 0 0 1px #a7a7a7;\n  background-color: #FFF;\n  border: 1px solid #e3e3e3;\n  border-radius: 2px;\n  padding: 10px;\n  color: #000;\n  margin: 0.5rem 0;\n  display: flex;\n  align-items: center;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]:first-child, .df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]:last-child {\n  margin: 0;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-img[_ngcontent-%COMP%] {\n  min-height: 100px;\n  min-width: 100px;\n  width: 100px;\n  height: 100px;\n  overflow: hidden;\n  margin-right: 15px;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-title[_ngcontent-%COMP%] {\n  display: -webkit-box;\n  -webkit-line-clamp: 3;\n  -webkit-box-orient: vertical;\n  font-weight: 500;\n  max-height: 50px;\n  overflow: hidden;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-ad-info[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: baseline;\n  margin-top: 10px;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-ad-info[_ngcontent-%COMP%]   .deal-or-price[_ngcontent-%COMP%] {\n  color: #FC331D;\n  text-decoration: line-through;\n  margin-right: 5px;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-ad-info[_ngcontent-%COMP%]   .deal-price[_ngcontent-%COMP%] {\n  color: #76b14c;\n  margin-right: 5px;\n  font-weight: bold;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-ad-info[_ngcontent-%COMP%]   .deal-shipping[_ngcontent-%COMP%] {\n  line-height: 12px;\n  font-style: italic;\n  color: #999;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-ad-info[_ngcontent-%COMP%]   .deal-store[_ngcontent-%COMP%] {\n  line-height: 12px;\n  font-style: italic;\n  color: #999;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-footer[_ngcontent-%COMP%] {\n  color: #999;\n  display: flex;\n  margin-top: 10px;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-footer[_ngcontent-%COMP%]   .deal-liking[_ngcontent-%COMP%] {\n  margin-right: 10px;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-footer[_ngcontent-%COMP%]   .df-o-icon[_ngcontent-%COMP%] {\n  position: relative;\n  font-size: 0.75rem;\n}\n.df-deals[_ngcontent-%COMP%]   .df-deal[_ngcontent-%COMP%]   .df-deal-info[_ngcontent-%COMP%]   .deal-footer[_ngcontent-%COMP%]   .df-o-label[_ngcontent-%COMP%] {\n  position: relative;\n  font-size: 0.75rem;\n  top: -0.1rem;\n}"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](DealsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
